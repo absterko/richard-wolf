@@ -1,7 +1,7 @@
 {
   "name": "richard-wolf",
   "version": "0.1.0",
-  "homepage": "https://absterko.github.io/richard-wolf/",
+  "homepage": "https://absterko.github.io/richard-wolf",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
