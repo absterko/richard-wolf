@@ -46,7 +46,7 @@ const About = (props: Props) => {
               I am interested in working on interesting projects with
               interesting and clever people.
             </p>
-            <img src={profile} className="profile" />
+            <img src={profile} alt="" className="profile" />
           </div>
         </div>
       </Slide>
@@ -54,12 +54,12 @@ const About = (props: Props) => {
         <div className="container">
           <h1 id="work">HOBBY PROJECTS</h1>
           <a href="https://absterko.github.io/html-snake/">
-            <img className="ios-template" src={snake} />
+            <img className="ios-template" alt="" src={snake} />
           </a>
           <a href="https://absterko.github.io/musicer/">
-            <img className="android-template" src={musicer} />
+            <img className="android-template" alt="" src={musicer} />
           </a>
-          <img className="pc-template" src={dogShelter} />
+          <img className="pc-template" alt="" src={dogShelter} />
         </div>
       </Slide>
 
@@ -67,14 +67,14 @@ const About = (props: Props) => {
         <div id="contact" className="contact">
           <h1>Let's stay in touch</h1>
           <a href="https://github.com/absterko">
-            <img src={github} className="github-logo" />
+            <img src={github} alt="" className="github-logo" />
           </a>
           <a href="https://www.linkedin.com/in/richardwolf/">
-            <img src={linkedin} className="linkedin-logo" />
+            <img src={linkedin} alt="" className="linkedin-logo" />
           </a>
 
           <a href="mailto:ab11sup@gmail.com">
-            <img src={mail} className="mail-logo" />
+            <img src={mail} alt="" className="mail-logo" />
           </a>
         </div>
       </Fade>
