@@ -1,0 +1,97 @@
+h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: normal;
+}
+
+span {
+  font-size: 1.7em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  margin-top: 200px;
+}
+.about {
+  padding-top: 50vh;
+}
+
+.container {
+  padding-top: 50vh;
+}
+
+.contact {
+  padding-top: 50vh;
+}
+
+.profile {
+  border: 3px solid;
+  border-radius: 2.5em;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.profile:hover {
+  transition: none;
+  transform: none;
+  opacity: 1;
+}
+
+.pc-template {
+  width: 400px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.android-template {
+  width: 170px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.ios-template {
+  width: 200px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+img:hover {
+  opacity: 0.5;
+  transition: 0.5s ease;
+  transform: scale(1.05);
+}
+
+span:hover {
+  filter: drop-shadow(1px 1px 1px #222);
+}
+
+.github-logo {
+  width: 10em;
+}
+
+.linkedin-logo {
+  width: 8.5em;
+}
+
+.mail-logo {
+  width: 8em;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 520px) {
+  .mail-logo {
+    width: 6em;
+  }
+
+  .github-logo {
+    width: 8em;
+  }
+
+  .linkedin-logo {
+    width: 7em;
+  }
+}
