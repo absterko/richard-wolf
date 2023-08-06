@@ -1,7 +1,7 @@
 .App {
   font: {
     size: 1em;
-    font-family: "Mulish", sans-serif;
+    font-family: "Questrial", sans-serif;
     weight: 600;
   }
 
@@ -22,6 +22,7 @@ body {
   animation: mymove 40s;
   animation-timing-function: ease-in-out;
   -webkit-animation-timing-function: ease-in-out;
+  font-family: "Questrial", sans-serif;
 }
 
 html {
@@ -30,7 +31,7 @@ html {
 }
 
 #root {
-  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  background-color: #131022;
 }
 
 header {

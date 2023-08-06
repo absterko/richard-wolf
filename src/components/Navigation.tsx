@@ -7,13 +7,13 @@ const Navigation = (props: Props) => {
     <>
       <nav className="navigation">
         <li>
-          <a href="#about">ME</a>
+          <a href="#about">Me</a>
         </li>
         <li>
-          <a href="#work">WORK</a>
+          <a href="#work">Work</a>
         </li>
         <li>
-          <a href="#contact">CONTACT</a>
+          <a href="#contact">Contact</a>
         </li>
       </nav>
     </>
