@@ -7,16 +7,21 @@
     cursor: pointer;
     padding: 0.575em 1.65em;
     display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
   }
 
   a {
-    color: white;
     font-size: 1.6em;
     text-decoration: none;
     font-weight: 200;
-  }
+    font-family: 'Playfair Display', serif;
 
-  a:hover {
-    filter: drop-shadow(1px 1px 1px #222);
+    &:hover {
+      filter: drop-shadow(.1px .1px .1px #222);
+      text-decoration: underline;
+    }
   }
 }

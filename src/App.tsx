@@ -1,10 +1,10 @@
 import React from "react";
 import Navigation from "./components/Navigation";
 import "./App.scss";
-import About from "./components/About";
+import Main from "./components/Main";
 import { Slide, Fade } from "react-awesome-reveal";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
       <Fade cascade>
@@ -14,11 +14,11 @@ function App() {
       </Fade>
       <Slide triggerOnce>
         <main className="content">
-          <About />
+          <Main />
         </main>
       </Slide>
     </div>
   );
-}
+};
 
 export default App;

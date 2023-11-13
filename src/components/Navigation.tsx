@@ -1,23 +1,25 @@
 import React from "react";
 import "./Navigation.scss";
-type Props = {};
 
-const Navigation = (props: Props) => {
+const Navigation: React.FC = () => {
   return (
-    <>
-      <nav className="navigation">
-        <li>
-          <a href="#about">Me</a>
-        </li>
-        <li>
-          <a href="#work">Work</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </nav>
-    </>
+    <nav className="navigation">
+      <NavItem target="#about" label="me" />
+      <NavItem target="#work" label="work" />
+      <NavItem target="#contact" label="contact" />
+    </nav>
   );
 };
+
+interface NavItemProps {
+  target: string;
+  label: string;
+}
+
+const NavItem: React.FC<NavItemProps> = ({ target, label }) => (
+  <li>
+    <a href={target}>{label}</a>
+  </li>
+);
 
 export default Navigation;
