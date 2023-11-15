@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/richard-wolf/static/css/main.07564ef0.css",
-    "main.js": "/richard-wolf/static/js/main.ed6894de.js",
+    "main.css": "/richard-wolf/static/css/main.868cfd3c.css",
+    "main.js": "/richard-wolf/static/js/main.edbff6fd.js",
     "static/media/musicer.png": "/richard-wolf/static/media/musicer.3c8d40cd5696e4d9455e.png",
     "static/media/snake.png": "/richard-wolf/static/media/snake.f368152ec518531f98b4.png",
     "static/media/profile.jpg": "/richard-wolf/static/media/profile.ed990c63b7e5ede8951e.jpg",
     "static/media/dog-donation.png": "/richard-wolf/static/media/dog-donation.25547b75c85ad231a441.png",
     "static/media/organizer.png": "/richard-wolf/static/media/organizer.a293cb8464d4ed5fa5f0.png",
     "index.html": "/richard-wolf/index.html",
-    "main.07564ef0.css.map": "/richard-wolf/static/css/main.07564ef0.css.map",
-    "main.ed6894de.js.map": "/richard-wolf/static/js/main.ed6894de.js.map"
+    "main.868cfd3c.css.map": "/richard-wolf/static/css/main.868cfd3c.css.map",
+    "main.edbff6fd.js.map": "/richard-wolf/static/js/main.edbff6fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.07564ef0.css",
-    "static/js/main.ed6894de.js"
+    "static/css/main.868cfd3c.css",
+    "static/js/main.edbff6fd.js"
   ]
 }
