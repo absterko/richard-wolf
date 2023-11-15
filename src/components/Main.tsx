@@ -75,10 +75,39 @@ const Main: React.FC = () => (
             with Docker. As a software developer, I went through all phases of
             application development, from solution proposals, implementation to
             testing and bug fixing. In the future, I am interested in working on
-            interesting projects with fine people building awesome things. Let's
-            stay in touch for future cooperation.
+            interesting projects with fine people building awesome things.
           </p>
           <img src={profile} alt="" className="profile" />
+          <h1>2021 - 2022</h1>
+          <p>
+            Yearnagnostic.io was the first big project I was taking a part in
+            where my job was to prepare react web-app for start-up project. In
+            international team we were building a big Web-3 platform written in
+            Solidity/React. My response was to prepare the front-end of the
+            project and secure the connection between FE and blockchain part of
+            the project.
+          </p>
+          <h1>2022 - 2023</h1>
+          <p>
+            Other significant projects were carried out under the umbrella of
+            Unicorn. While this may sound like a metaphor, at Unicorn, I was
+            involved in numerous large-scale initiatives spanning the fields of
+            energy, tourism, and management. My role in these projects varied
+            from conceptualizing the task's implementation to proposing the
+            design, executing the implementation, and verifying the solution's
+            correctness through testing. I also contributed to the back-end of
+            the application, where I gained insights into the integration of
+            various technologies. The experience garnered from these projects
+            significantly enhanced my skills in React and Node.js.
+          </p>
+          <h1> 2023 - present </h1>
+          <p>
+            Freelance development of the client's project is my focus. My aim is
+            to provide the best service to the client and help them grow their
+            businesses with the smart solutions resulting from my development
+            work. Currently the technologies I'm working with are
+            Typescript/Next/Tailwind.
+          </p>
         </div>
       </div>
     </Slide>
@@ -105,7 +134,7 @@ const Main: React.FC = () => (
     </Slide>
     <Fade>
       <div id="contact" className="contact">
-        <h1>Let's stay in touch</h1>
+        <h1>Get in touch</h1>
         <nav className="navigation">
           {socialLinks.map((link, index) => (
             <li key={index}>
